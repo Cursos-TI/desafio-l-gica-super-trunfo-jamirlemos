@@ -307,7 +307,7 @@ int main() {
       printf("Resultado: Empate\n");
     }
   }
- 
+
   if (escolha2 == "Densidade Populacional") {
     if (valor2_c1 < valor2_c2) {
       printf("Resultado: Carta 1 venceu (menor densidade populacional).\n");
