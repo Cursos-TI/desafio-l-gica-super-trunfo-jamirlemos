@@ -36,7 +36,6 @@ int main() {
   double superPoder2 = 0;               // Super Poder da carta 2
   double valor1_c2 = 0, valor2_c2 = 0;  // Armazena os valores dos atributos escolhidos para a carta 2
 
-
   // Entrada dos dados da carta 1
 
   // Solicita ao usuário o nome do país da carta 1
@@ -308,7 +307,7 @@ int main() {
       printf("Resultado: Empate\n");
     }
   }
-
+ 
   if (escolha2 == "Densidade Populacional") {
     if (valor2_c1 < valor2_c2) {
       printf("Resultado: Carta 1 venceu (menor densidade populacional).\n");
@@ -317,7 +316,7 @@ int main() {
       printf("Resultado: Carta 2 venceu (menor densidade populacional).\n");
       return 0;
     } else {
-      printf(C:\Users\jamir\Documents\Code bloks projetos\Nível Mestre Desafiando a lógica super trunfo2\main.cpp"Resultado: Empate\n");
+      printf("Resultado: Empate\n");
     }
   }
 
